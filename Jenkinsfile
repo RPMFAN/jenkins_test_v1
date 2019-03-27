@@ -1,4 +1,5 @@
 pipeline {
+    agent any
     environment {
         BUILD = "${env.BUILD_ID}"
     }
